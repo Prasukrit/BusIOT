@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <style>
+            .box-padding{
+                padding:15px;
+            }
+            .text-center{
+                text-align: center;
+            }
+            #map{
+                width:  100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-inverse">
+            <a class="navbar-brand" href="#">IMT : Public Transport</a>
+
+        </nav>
+        <div class="row">
+            <div class="col-sm-6 box-padding">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7754.162146540385!2d100.4877362!3d13.6528321!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sen!2s!4v1464058202286" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="panel panel-default box-padding">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th colspan="5" class="text-center"><h2>ตารางเวลารถเมล์</h2></th>
+                                </tr>
+                                <tr class="text-center">
+                                    <th>สายรถเมล์</th>
+                                    <th>เลขทะเบียน</th>
+                                    <th>ประเภท</th>
+                                    <th>เวลาที่จะถึง</th>
+                                    <th>เวลาที่จะถึงถัดไป</th>
+                                </tr>
+                                <tr>
+                                    <td>75</td>
+                                    <td>ณ 1018</td>
+                                    <td>ปรับอากาศ</td>
+                                    <td>10.20</td>
+                                    <td>10.35</td>
+                                </tr>
+                                <tr>
+                                    <td>75</td>
+                                    <td>กจ 1044</td>
+                                    <td>ธรรมดา</td>
+                                    <td>11.00</td>
+                                    <td>11.08</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>ก 003</td>
+                                    <td>ปรับอากาศ</td>
+                                    <td>11.03</td>
+                                    <td>11.11</td>
+                                </tr>
+                            </table>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Map-->
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfiBNLgXaaDW480L6xGo5_nvaj0rqSsOs&callback=initMap">
+        </script>
+        <!-- jQuery first, then Bootstrap JS. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    </body>
+</html>
