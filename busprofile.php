@@ -88,7 +88,7 @@
                             <!--<div class="panel panel-default">-->
                             <div class="box-border">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title ">ข้อมูลรถเมล์</h3>
+                                    <h3 class="panel-title ">ข้อมูลทั่วไปรถเมล์</h3>
                                 </div>
                                 <div class="panel-body">
                                     <table class="table">
